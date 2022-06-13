@@ -1,0 +1,73 @@
+h1, h2, h3 {
+    color: red;
+}
+
+h1, h2, h3 em {
+    font-size: 40px;
+    border: 1px solid;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bolder;
+}
+
+ul.programacao li:nth-child(1) {
+    color: blue;
+
+}
+
+ul.programacao li:nth-child(2) {
+    color: blue;
+}
+
+ul.programacao li:nth-child(3) {
+    color: blue;
+}
+
+ul.programacao .java {
+    background-color: pink;
+}
+
+
+
+.ordenada {
+    background-color: yellow;
+
+}
+
+ol.ordenada li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+ol.ordenada li:nth-child(even) {
+    color: green;
+}
+
+ul.aliados li:nth-child(1) a:hover {
+    color: orange;
+
+}
+
+ul.aliados li:nth-child(2) a:hover {
+    color: green;
+
+}
+
+ul.aliados li:nth-child(3) a:hover {
+    color: black;
+
+}
+
+ul.aliados li:nth-child(4) a:hover {
+    color: yellow;
+
+}
+
+ul.aliados li:nth-child(5) a:hover {
+    color: green;
+
+}
