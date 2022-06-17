@@ -1,8 +1,13 @@
 h1, p {
     text-align: center;
 }
+
+.lista {
+    list-style: none;
+}
+
 li:hover{
-    background-color: black;
+    background-color: aqua;
 }
 
 li:active {

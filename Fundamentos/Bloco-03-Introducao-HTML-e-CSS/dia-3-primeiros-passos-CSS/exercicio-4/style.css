@@ -15,17 +15,9 @@ li em {
     font-weight: bolder;
 }
 
-ul.programacao li:nth-child(1) {
+ul.programacao li:nth-child(-n+3) {
     color: blue;
 
-}
-
-ul.programacao li:nth-child(2) {
-    color: blue;
-}
-
-ul.programacao li:nth-child(3) {
-    color: blue;
 }
 
 ul.programacao .java {
