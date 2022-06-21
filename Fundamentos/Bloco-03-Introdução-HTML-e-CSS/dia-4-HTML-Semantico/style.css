@@ -1,3 +1,54 @@
+html {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/18/86/underwater-scene-with-tropical-coral-reef-vector-19171886.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    h
+}
+
+h3 {
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+}
+
+
+
+nav ul {
+    border-style: groove solid groove solid;
+    border-color: blue;
+}
+    
+
+
+
 .imagem {
     width:400px;
+}
+
+.tabela {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+table, th, td {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.links {
+   display: inline-block;
+   margin-right: 50px;
+   
+}
+
+.footer {
+    background-color: white;
+    font-weight: bolder;
 }
