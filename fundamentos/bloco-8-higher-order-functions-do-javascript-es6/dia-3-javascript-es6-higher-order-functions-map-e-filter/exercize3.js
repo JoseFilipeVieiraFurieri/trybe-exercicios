@@ -61,10 +61,7 @@ const books = [
     },
   ];
   
-//   1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
+  const fantasyOrScienceFiction = books.filter((elemento) => elemento.genre === 'Fantasia' || elemento.genre === 'Ficção Científica');
 
-const formatedBooksNames = books.map(elemento => {
-  return `${elemento.name} - ${elemento.genre} - ${elemento.author.name}`;
-
-})
-console.log(formatedBooksNames)
+  console.log(fantasyOrScienceFiction);
+    
